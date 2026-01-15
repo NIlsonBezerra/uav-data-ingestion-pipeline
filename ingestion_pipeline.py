@@ -1,6 +1,3 @@
-from nis import cat
-
-cat << 'EOF' > ingestion_pipeline.py
 import time
 import json
 import random
@@ -94,4 +91,3 @@ class DataIngestionPipeline:
 if __name__ == "__main__":
     pipeline = DataIngestionPipeline()
     pipeline.start()
-EOF
